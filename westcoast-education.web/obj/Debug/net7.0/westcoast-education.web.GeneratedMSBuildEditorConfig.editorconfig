@@ -1,0 +1,77 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = westcoast_education.web
+build_property.RootNamespace = westcoast_education.web
+build_property.ProjectDir = /Users/danielhertz/Desktop/Skola WU22/Inlamningar - Daniel Hertz/2 Dynamiska Webbsystem 1/Inlämning 3/WestcoastEducation - Inlämning3/westcoast-education.web/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/danielhertz/Desktop/Skola WU22/Inlamningar - Daniel Hertz/2 Dynamiska Webbsystem 1/Inlämning 3/WestcoastEducation - Inlämning3/westcoast-education.web
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/danielhertz/Desktop/Skola WU22/Inlamningar - Daniel Hertz/2 Dynamiska Webbsystem 1/Inlämning 3/WestcoastEducation - Inlämning3/westcoast-education.web/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/danielhertz/Desktop/Skola WU22/Inlamningar - Daniel Hertz/2 Dynamiska Webbsystem 1/Inlämning 3/WestcoastEducation - Inlämning3/westcoast-education.web/Views/Courses/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ291cnNlcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/danielhertz/Desktop/Skola WU22/Inlamningar - Daniel Hertz/2 Dynamiska Webbsystem 1/Inlämning 3/WestcoastEducation - Inlämning3/westcoast-education.web/Views/CoursesAdmin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ291cnNlc0FkbWluL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/danielhertz/Desktop/Skola WU22/Inlamningar - Daniel Hertz/2 Dynamiska Webbsystem 1/Inlämning 3/WestcoastEducation - Inlämning3/westcoast-education.web/Views/CoursesAdmin/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ291cnNlc0FkbWluL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/danielhertz/Desktop/Skola WU22/Inlamningar - Daniel Hertz/2 Dynamiska Webbsystem 1/Inlämning 3/WestcoastEducation - Inlämning3/westcoast-education.web/Views/CoursesAdmin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ291cnNlc0FkbWluL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/danielhertz/Desktop/Skola WU22/Inlamningar - Daniel Hertz/2 Dynamiska Webbsystem 1/Inlämning 3/WestcoastEducation - Inlämning3/westcoast-education.web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/danielhertz/Desktop/Skola WU22/Inlamningar - Daniel Hertz/2 Dynamiska Webbsystem 1/Inlämning 3/WestcoastEducation - Inlämning3/westcoast-education.web/Views/Persons/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyc29ucy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/danielhertz/Desktop/Skola WU22/Inlamningar - Daniel Hertz/2 Dynamiska Webbsystem 1/Inlämning 3/WestcoastEducation - Inlämning3/westcoast-education.web/Views/PersonsAdmin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyc29uc0FkbWluL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/danielhertz/Desktop/Skola WU22/Inlamningar - Daniel Hertz/2 Dynamiska Webbsystem 1/Inlämning 3/WestcoastEducation - Inlämning3/westcoast-education.web/Views/PersonsAdmin/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyc29uc0FkbWluL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/danielhertz/Desktop/Skola WU22/Inlamningar - Daniel Hertz/2 Dynamiska Webbsystem 1/Inlämning 3/WestcoastEducation - Inlämning3/westcoast-education.web/Views/PersonsAdmin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGVyc29uc0FkbWluL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/danielhertz/Desktop/Skola WU22/Inlamningar - Daniel Hertz/2 Dynamiska Webbsystem 1/Inlämning 3/WestcoastEducation - Inlämning3/westcoast-education.web/Views/Shared/_Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19FcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/danielhertz/Desktop/Skola WU22/Inlamningar - Daniel Hertz/2 Dynamiska Webbsystem 1/Inlämning 3/WestcoastEducation - Inlämning3/westcoast-education.web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/danielhertz/Desktop/Skola WU22/Inlamningar - Daniel Hertz/2 Dynamiska Webbsystem 1/Inlämning 3/WestcoastEducation - Inlämning3/westcoast-education.web/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/danielhertz/Desktop/Skola WU22/Inlamningar - Daniel Hertz/2 Dynamiska Webbsystem 1/Inlämning 3/WestcoastEducation - Inlämning3/westcoast-education.web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/danielhertz/Desktop/Skola WU22/Inlamningar - Daniel Hertz/2 Dynamiska Webbsystem 1/Inlämning 3/WestcoastEducation - Inlämning3/westcoast-education.web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,62 @@
+@model IList<westcoast_education.web.ViewModels.CourseListViewModel>
+    
+@{
+    Layout = "_LayoutAdmin";
+}
+
+@{
+    ViewData["Title"] = "Admin Kurser";
+}
+
+
+
+
+<section class="hero">
+    <div class="admin-overlay">
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>&lt;KursID&gt;</th>
+                        <th>&lt;Kursnamn&gt;</th>
+                        <th>&lt;Kurstitel&gt;</th>
+                        <th>&lt;Kursnummer&gt;</th>
+                        <th>&lt;Startdatum&gt;</th>
+                        <th>&lt;Antal veckor&gt;</ th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var course in Model)
+                    {
+                        <tr>
+                            <td>
+                                <a asp-action="edit" asp-controller="CoursesAdmin" asp-route-courseId=@course.CourseId><i
+                                    class="fa-solid fa-pen"></i></a>
+                            </td>
+                            <td>@course.CourseId</td>
+                            <td>@course.CourseName</td>
+                            <td>@course.CourseTitle</td>
+                            <td>@course.CourseNumber</td>
+                            <td>@course.CourseStartDate.ToShortDateString()</td>
+                            <td>@course.CourseLengthInWeeks</td>
+                            <td><a asp-action="delete" asp-controller="CoursesAdmin" asp-route-courseId=@course.CourseId><i
+                                    class="fa-solid fa-trash-can"></i></a></td>
+                        </tr>
+                    }
+                </tbody>
+                <tfoot>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tfoot>
+            </table>
+            <div id="add-course-button"><a asp-action="create" asp-controller="CoursesAdmin">Lägg till en kurs</a></div>
+    </div>
+</section>

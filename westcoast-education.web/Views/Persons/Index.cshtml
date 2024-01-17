@@ -1,0 +1,45 @@
+@{
+    ViewData["Title"] = "Personer";
+}
+@model IList<westcoast_education.web.Models.Person>
+
+<section class="hero">
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>&lt;Namn&gt;</th>
+                    <th>&lt;Epost&gt;</th>
+                    <th>&lt;Adress&gt;</th>
+                    <th>&lt;Telefonnummer&gt;</th>
+                    <th>&lt;Kategori&gt;</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var person in Model)
+                {
+                    <tr>
+                        <td></td>
+                        <td>@person.Name</td>
+                        <td>@person.Email</td>
+                        <td>@person.Address</td>
+                        <td>@person.PhoneNumber</td>
+                        <td>@person.PersonCategory</td>
+                        <td></td>
+                    </tr>
+                }
+            </tbody>
+            <tfoot>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tfoot>
+        </table>
+    </div>
+</section>

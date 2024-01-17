@@ -1,0 +1,54 @@
+@model westcoast_education.web.ViewModels.CoursePostViewModel
+
+@{
+    Layout = "_LayoutAdmin";
+}
+
+@{
+    ViewData["Title"] = "Lägg till Kurs";
+}
+
+<div class="form">
+    <section>
+        <h1>Lägg till kurs</h1>
+        <form asp-action="create" asp-controller="CoursesAdmin" method="post">
+            @* <div>
+                <label for="">KursID</label>
+                <input asp-for="CourseID">
+            </div> *@
+            <div>
+                <label asp-for="CourseName"></label>
+                <input asp-for="CourseName">
+                <span asp-validation-for="CourseName"></span>
+            </div>
+            <div>
+                <label asp-for="CourseTitle"></label>
+                <input asp-for="CourseTitle">
+                <span asp-validation-for="CourseTitle"></span>
+            </div>
+            <div>
+                <label asp-for="CourseNumber"></label>
+                <input asp-for="CourseNumber">
+                <span asp-validation-for="CourseNumber"></span>
+            </div>
+            <div>
+                <label asp-for="CourseStartDate"></label>
+                <input asp-for="CourseStartDate">
+                <span asp-validation-for="CourseStartDate"></span>
+            </div>
+            <div>
+                <label asp-for="CourseLengthInWeeks"></label>
+                <input asp-for="CourseLengthInWeeks">
+                <span asp-validation-for="CourseLengthInWeeks"></span>
+            </div>
+            <div>
+                <div>
+                    <button>
+                        <i>spara</i>
+                    </button>
+                    <a asp-action="index" asp-controller="CoursesAdmin"><i>Avbryt</i></a>
+                </div>
+            </div>
+        </form>
+    </section>
+</div>

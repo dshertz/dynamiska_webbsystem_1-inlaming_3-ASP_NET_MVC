@@ -1,0 +1,64 @@
+@model IList<westcoast_education.web.ViewModels.PersonListViewModel>
+    
+@{
+    Layout = "_LayoutAdmin";
+}
+
+@{
+    ViewData["Title"] = "Admin Personer";
+}
+
+
+
+<section class="hero">
+<div class="admin-overlay">
+<div class="table-container">    
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>&lt;AnvändarID&gt;</th>
+                        <th>&lt;Kategori&gt;</th>
+                        <th>&lt;Personnummer&gt;</th>
+                        <th>&lt;Namn&gt;</th>
+                        <th>&lt;Epost&gt;</th>
+                        <th>&lt;Adress&gt;</th>
+                        <th>&lt;Telefonnummer&gt;</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var person in Model)
+                    {
+                        <tr>
+                            <td>
+                                <a asp-action="edit" asp-controller="PersonsAdmin"
+                                asp-route-personId=@person.PersonId><i class="fa-solid fa-pen"></i></a>
+                            </td>
+                            <td>@person.PersonId</td>
+                            <td>@person.PersonCategory</td>
+                            <td>@person.SocialSecurityNumber</td>
+                            <td>@person.Name</td>
+                            <td>@person.Email</td>
+                            <td>@person.Address</td>
+                            <td>@person.PhoneNumber</td>
+                            <td><a asp-action="delete" asp-controller="PersonsAdmin" asp-route-personId=@person.PersonId><i class="fa-solid fa-trash-can"></a></td>
+                        </tr>
+                    }
+                </tbody>
+                <tfoot>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tfoot>
+            </table>
+    <div id="add-course-button"><a asp-action="create" asp-controller="PersonsAdmin">Lägg till en Person</a></div>
+</div>
+    </div>
+</section>

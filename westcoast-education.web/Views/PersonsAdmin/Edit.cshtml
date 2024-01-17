@@ -1,0 +1,53 @@
+@model westcoast_education.web.ViewModels.PersonUpdateViewModel
+
+@{
+    Layout = "_LayoutAdmin";
+}
+
+@{
+    ViewData["Title"] = "Edit Person";
+}
+
+<section>
+    <h1>Edit person</h1>
+    <form asp-action="edit" asp-controller="PersonsAdmin" asp-route-personId=@Model.PersonId method="post">
+        <div>
+            <label asp-for="SocialSecurityNumber"></label>
+            <input asp-for="SocialSecurityNumber">
+            <span asp-validation-for="SocialSecurityNumber"></span>
+        </div>
+        <div>
+            <label asp-for="PersonCategory"></label>
+            <input asp-for="PersonCategory">
+            <span asp-validation-for="PersonCategory"></span>
+        </div>
+        <div>
+            <label asp-for="Name"></label>
+            <input asp-for="Name">
+            <span asp-validation-for="Name"></span>
+        </div>
+        <div>
+            <label asp-for="Email"></label>
+            <input asp-for="Email">
+            <span asp-validation-for="Email"></span>
+        </div>
+        <div>
+            <label asp-for="Address"></label>
+            <input asp-for="Address">
+            <span asp-validation-for="Address"></span>
+        </div>
+        <div>
+            <label asp-for="PhoneNumber"></label>
+            <input asp-for="PhoneNumber">
+            <span asp-validation-for="PhoneNumber"></span>
+        </div>
+        <div>
+            <div>
+                <button>
+                    <i>spara</i>
+                </button>
+                <a asp-action="index" asp-controller="PersonsAdmin"><i>Avbryt</i></a>
+            </div>
+        </div>
+    </form>
+</section>
